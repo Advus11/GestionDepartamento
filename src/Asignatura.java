@@ -1,14 +1,12 @@
 import java.util.ArrayList;
 class Asignatura {
     private String nombre;
-    private int creditos;
     private String curso;
     private ArrayList<Estudiante> estudiantes;
 
     // Constructor
-    public Asignatura(String nombre, int creditos, String curso) {
+    public Asignatura(String nombre, String curso) {
         this.nombre = nombre;
-        this.creditos = creditos;
         this.curso = curso;
         this.estudiantes = new ArrayList<>();
     }
@@ -29,14 +27,6 @@ class Asignatura {
 
     public void setNombre(String nombre) {
         this.nombre = nombre;
-    }
-
-    public int getCreditos() {
-        return creditos;
-    }
-
-    public void setCreditos(int creditos) {
-        this.creditos = creditos;
     }
 
     public String getCurso() {

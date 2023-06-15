@@ -11,8 +11,8 @@ public class Main {
         Administrativo administrativo1 = new Administrativo("Leonardo Villegas", "15232477-8", "Casado", 2010);
         Estudiante estudiante1 = new Estudiante("Adonis Subiabre", "20528583-0", "Soltero", "PGC");
         Estudiante estudiante2 = new Estudiante("Jade", "21186838-4", "Soltera", "IPS");
-        Asignatura asignatura1 = new Asignatura("Programacion", 5, "PGC");
-        Asignatura asignatura2 = new Asignatura("Int. Psicologia", 4, "IPS");
+        Asignatura asignatura1 = new Asignatura("Programacion", "PGC");
+        Asignatura asignatura2 = new Asignatura("Int. Psicologia", "IPS");
 
         profesor1.agregarAsignatura(asignatura1); //Agrega asignatura segun se requiera
         profesor2.agregarAsignatura(asignatura2);
